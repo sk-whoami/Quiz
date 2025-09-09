@@ -6,11 +6,9 @@
 
 def fizzbuzz():
   num1 = int(input("Enter : "))
-  if num % 2 == 0 and / 3 and 5 :
-    print("fizz buzz")
-  else:
-    print("Neither")
-  if num1 % 3 == 0 :
+  if num1 % 3 and num1 %5 ==0: 
+    print("fizzbuzz")
+  elif num1 % 3 == 0 : 
     print("fizz")
   elif num1  % 5 == 0 :
     print("buzz")
